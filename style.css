@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /* background: #fff8e1; */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  background: #fffef5;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #aa5500;
+}
+
+#quote-box {
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 2px dashed #ffc107;
+  border-radius: 12px;
+  min-height: 100px;
+  background-color: #fff3cd;
+}
+
+.tagline {  
+  font-family: "Comic Neue", cursive;
+  font-size: 1.1rem;
+  color: #704214;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+#quote {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+}
+
+#speaker {
+  font-style: italic;
+  color: #666;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  background: #ffb300;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.buttons button:hover {
+  background: #e68900;
+}
+
+ul#favorites {
+  list-style: none;
+  padding: 0;
+}
+
+ul#favorites li {
+  background: #fef3c7;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  text-align: left;
+}
